@@ -1,0 +1,94 @@
+media 
+
+
+body {
+    font-size: 18px;
+    background: linear-gradient(to right, hsl(214, 64%, 98%), hsl(330, 79%, 41%), hsl(265, 100%, 66%));
+ }
+
+#free {
+    background-color: white;
+    float: right;
+    padding: 10px 40px 10px 40px;
+    margin-top: 20px; 
+    margin-right: 20px;
+ }
+
+.logo {
+    margin-top: 50px;
+
+
+ }
+
+.path{
+    margin-left: 130px;
+    margin-top: 120px;
+
+ }
+
+ .hud {
+     text-align: center;
+ }
+ 
+@media only screen and (max-width){
+    
+}
+
+ #get {
+     background-color: hsl(330, 79%, 41%);
+     color: white;
+     padding: 10px 0px 10px 0px;
+     margin: 0px 500px 0px 500px;
+
+ }
+ .form{}
+
+ .flow {
+     float: right;
+     margin-top: 9em;
+ }
+
+ .try {
+     background-color: white;
+    
+     text-align: center;
+     margin: 700px 400px 200px 400px;
+     padding: 30px 40px 30px 40px;
+ }
+
+ #for {
+    background-color: hsl(330, 79%, 41%);
+    color: white;
+    padding: 20px 30px 20px 30px;
+    margin-left: 5em;
+    margin-right: 5em;
+ }
+
+ .foot {
+     background-color: hsl(192, 100%, 9%);
+     color: white;
+     padding-left: 20px;
+     
+ }
+
+ .tip{
+     margin-top: 60px;
+ }
+ 
+ .column {
+     float: left;
+     width: 25%;
+        
+ }
+
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ @media screen and (max-width:344px) {
+     .column {
+         width: 100px;
+     }
+ }
